@@ -1,0 +1,19 @@
+{
+  "name": "file-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinar-rezaee/upload_file.git"
+  },
+  "author": "avinar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinar-rezaee/upload_file/issues"
+  },
+  "homepage": "https://github.com/avinar-rezaee/upload_file#readme"
+}
