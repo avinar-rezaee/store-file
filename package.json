@@ -6,14 +6,14 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/avinar-rezaee/upload_file.git"
+    "url": "git+https://github.com/avinar-rezaee/store-file.git"
   },
-  "author": "avinar",
+  "author": "avinarrezaee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/avinar-rezaee/upload_file/issues"
+    "url": "https://github.com/avinar-rezaee/store-file/issues"
   },
-  "homepage": "https://github.com/avinar-rezaee/upload_file#readme",
+  "homepage": "https://github.com/avinar-rezaee/store-file#readme",
   "dependencies": {
     "busboy": "^1.6.0",
     "file-type": "^18.0.0",
