@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": ""
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avinar-rezaee/upload_file.git"
@@ -15,5 +13,10 @@
   "bugs": {
     "url": "https://github.com/avinar-rezaee/upload_file/issues"
   },
-  "homepage": "https://github.com/avinar-rezaee/upload_file#readme"
+  "homepage": "https://github.com/avinar-rezaee/upload_file#readme",
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "file-type": "^18.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
 }
