@@ -85,11 +85,11 @@ module.exports = {
                 const buffer = Buffer.from(buf, 'base64');
                 const fileOptions = [...options].find(item => item.fieldName == name);
                 if (fileOptions) {
-                    const { fieldName, fileName, filePath } = fileOptions;
+                    const { fieldName, fileName, filePath: path } = fileOptions;
                     const fileObj = {
                         fieldName,
                         fileName: fileName ?? uuidv4(),
-                        filePath,
+                        path,
                         originalName: filename,
                         encoding,
                         mimeType,
@@ -106,8 +106,9 @@ module.exports = {
             const uploadedFiles = [];
             try {
                 for (const item of files) {
-                    const { buffer, fileName, filePath } = item
-                    const file = await module.exports.uploadFromBuffer({ buffer, fileName, filePath });
+                    const { buffer, fileName, path } = item
+                    const file = await module.exports.uploadFromBuffer({ buffer, fileName, filePath: path });
+                    item['filePath'] = file.filePath;
                     uploadedFiles.push(item);
                 }
 
