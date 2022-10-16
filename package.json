@@ -1,6 +1,6 @@
 {
   "name": "store-file",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -18,5 +18,12 @@
     "busboy": "^1.6.0",
     "file-type": "^18.0.0",
     "uuid": "^9.0.0"
-  }
+  },
+  "keywords": [
+    "upload file",
+    "file storage",
+    "parse form data",
+    "express file upload",
+    "express file upload middleware"
+  ]
 }

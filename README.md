@@ -3,10 +3,11 @@
 **with this package you can upload file from either formdata, or dataUrl or buffer.
 you can also parse formdata fields and files with this pakage.**
 
-these two awesome following packages are used in this package
+these three awesome following packages are used in this package
 
 [uuid](https://www.npmjs.com/package/uuid)
 [busboy](https://www.npmjs.com/package/busboy)
+[file-type](https://www.npmjs.com/package/file-type)
 
 ## Get started
 
